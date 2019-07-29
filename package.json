@@ -1,0 +1,23 @@
+{
+  "name": "mason-slack-now",
+  "version": "0.1.0",
+  "description": "Mason Slash Command for Slack",
+  "author": "Trevor Halvorson",
+  "repository": "https://github.com/trevorhalvorson/mason-slack-now.git",
+  "license": "MIT",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "lint-fix": "./node_modules/.bin/eslint . --fix"
+  },
+  "dependencies": {
+    "got": "^9.6.0",
+    "moment": "^2.24.0",
+    "raw-body": "^2.4.1",
+    "tsscmp": "^1.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}

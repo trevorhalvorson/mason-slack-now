@@ -1,0 +1,13 @@
+{
+  "name": "mason-slack-now",
+  "version": 2,
+  "public": true, 
+  "builds": [
+    { "src": "index.js", "use": "@now/node" }
+  ],
+  "env": {
+    "MASON_API_URL": "https://api.production.masonamerica.net/v1/default",
+    "MASON_API_KEY": "@mason-api-key",
+    "SLACK_SIGNING_SECRET": "@slack-signing-secret"
+  }
+}
