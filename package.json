@@ -10,7 +10,7 @@
     "lint-fix": "./node_modules/.bin/eslint . --fix"
   },
   "dependencies": {
-    "got": "^9.6.0",
+    "got": "^11.8.5",
     "moment": "^2.24.0",
     "raw-body": "^2.4.1",
     "tsscmp": "^1.0.6"
